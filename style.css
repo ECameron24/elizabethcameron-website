@@ -1,0 +1,44 @@
+H1{
+	text-align:center;
+}
+
+.navbar ul{
+	list-style: none;
+	background-color: #F5F5DC;
+	padding: 0 px;
+	margin: 30px 0;/*Add vertical margin*/ 
+	overflow: hidden;
+	display: flex;/*Use flexbox to arrange items horizontally*/
+	justify-content: center;/*Center the menu horizontally*/
+	text-align: center;
+}
+
+.navbar a{
+	color: black;
+	text-decoration: underline; 
+	padding: 16px;
+	display: block; 
+	text-align: center;
+}
+
+.navbar a:hover{
+	background-color: white; 
+}
+
+.navbar li{
+	float:left;
+	width: 100%;
+	display:inline-block;
+}	
+
+Body{
+	background-color: #F5F5DC;font-family: Comic Sans MS, Tahoma, sans-serif; 
+	font-size:16px;line-height:1.5em; text-align: center;
+}
+
+Table, th, td{
+	border:1px solid #000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
